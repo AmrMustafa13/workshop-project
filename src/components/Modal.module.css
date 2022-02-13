@@ -1,0 +1,20 @@
+.modal {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-overlay {
+  background-color: #ee5253;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  box-shadow: 4px 4px 19px 1px #ffffff85;
+  padding: 48px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-weight: bold;
+}

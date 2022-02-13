@@ -1,0 +1,18 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.nav-bar h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-bar button {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
