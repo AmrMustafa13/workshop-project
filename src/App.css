@@ -5,11 +5,6 @@
 }
 
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   height: 100vh;
-  gap: 48px;
-  background-color: #341f97;
+  background-color: #341f97 !important;
 }

@@ -1,16 +1,11 @@
 import classes from './NavBar.module.css'
+import { Link } from 'react-router-dom';
 
-const NavBar = ({ onLogged }) => {
-
-    const handleLogout = () => {
-        localStorage.removeItem('isLogged');
-        onLogged(false);
-    }
-
+const NavBar = () => {
     return (
         <div className={classes['nav-bar']}>
             <h1>Travelling App</h1>
-            <button onClick={handleLogout}>Logout</button>
+            <Link to='/'><button>Logout</button></Link>
         </div>
     );
 }
